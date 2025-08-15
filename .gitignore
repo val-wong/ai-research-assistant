@@ -1,0 +1,49 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code / JetBrains IDE configs
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Local ChromaDB data
+.chroma/
+
+# Logs
+*.log
+
+# pyright/mypy caches
+.mypy_cache/
+.pyright/
+
+# Coverage / test outputs
+.coverage
+htmlcov/
+pytest_cache/
+.env
+*.env
+.env
+*.env
+.chroma/
+__pycache__/
+.venv/
+.DS_Store
