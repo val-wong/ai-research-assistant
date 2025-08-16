@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Block committing any .env files
+if git diff --cached --name-only | grep -E '(^|/)\.env$|(^|/).+\.env$' >/dev/null; then
+  echo "❌ Commit blocked: .env files must not be committed."
+  echo "   Keep secrets local; use .env.example for placeholders."
+  exit 1
+fi
